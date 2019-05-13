@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:jug_2/final_late_init_test.dart';
 
 class MyHomePage extends StatelessWidget {
   @override
@@ -7,25 +8,14 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Test app"),
       ),
-      body: Column(
-        children: <Widget>[
-          FinalLateInitTestButton(),
-        ],
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            FinalLateInitTestButton(),
+          ],
+        ),
       ),
     );
   }
 }
-
-class FinalLateInitTestButton extends StatelessWidget {
-
-  final value = getValue();
-
-  @override
-  Widget build(BuildContext context) {
-    return RaisedButton(
-        child: Text("Final variable late init"), onPressed: () {});
-  }
-
-}
-
-class
