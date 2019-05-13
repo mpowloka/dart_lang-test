@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:jug_2/const_test.dart';
 import 'package:jug_2/final_late_init_test.dart';
 
 class MyHomePage extends StatelessWidget {
@@ -13,6 +14,7 @@ class MyHomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             FinalLateInitTestButton(),
+            ConstTest(),
           ],
         ),
       ),
