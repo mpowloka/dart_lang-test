@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:jug_2/collections_operators_test.dart';
 import 'package:jug_2/const_test.dart';
 import 'package:jug_2/final_late_init_test.dart';
 
@@ -15,6 +16,7 @@ class MyHomePage extends StatelessWidget {
           children: <Widget>[
             FinalLateInitTestButton(),
             ConstTest(),
+            CollectionsOperatorsTest()
           ],
         ),
       ),
