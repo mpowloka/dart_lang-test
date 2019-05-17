@@ -4,6 +4,7 @@ import 'package:jug_2/const_test.dart';
 import 'package:jug_2/final_late_init_test.dart';
 import 'package:jug_2/funtion_signtures_test.dart';
 
+import 'cascade_test.dart';
 import 'closure_test.dart';
 
 class MyHomePage extends StatelessWidget {
@@ -21,7 +22,8 @@ class MyHomePage extends StatelessWidget {
             ConstTest(),
             CollectionsOperatorsTest(),
             FunctionSignaturesTest(),
-            ClosureTest()
+            ClosureTest(),
+            CascadeTest()
           ],
         ),
       ),
