@@ -13,6 +13,9 @@ class ClassMembersTest extends StatelessWidget {
         print(object.valueSquared);
         print(object == _ExampleClass(4));
 
+        dynamic dynamicObject = object;
+        dynamicObject.hello();
+
       },
     );
   }
@@ -35,5 +38,10 @@ class _ExampleClass {
 
   @override
   int get hashCode => value.hashCode;
+
+  @override
+  noSuchMethod(Invocation invocation) {
+    print("Nah nah, cannot invoke that!");
+  }
 
 }
