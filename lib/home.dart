@@ -6,6 +6,7 @@ import 'package:jug_2/final_late_init_test.dart';
 import 'package:jug_2/funtion_signtures_test.dart';
 
 import 'cascade_test.dart';
+import 'class_members_test.dart';
 import 'closure_test.dart';
 
 class MyHomePage extends StatelessWidget {
@@ -25,7 +26,8 @@ class MyHomePage extends StatelessWidget {
             FunctionSignaturesTest(),
             ClosureTest(),
             CascadeTest(),
-            ConstructorsTest()
+            ConstructorsTest(),
+            ClassMembersTest()
           ],
         ),
       ),
