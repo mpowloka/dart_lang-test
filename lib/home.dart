@@ -8,6 +8,7 @@ import 'package:jug_2/funtion_signtures_test.dart';
 import 'cascade_test.dart';
 import 'class_members_test.dart';
 import 'closure_test.dart';
+import 'mixin_test.dart';
 
 class MyHomePage extends StatelessWidget {
   @override
@@ -27,7 +28,8 @@ class MyHomePage extends StatelessWidget {
             ClosureTest(),
             CascadeTest(),
             ConstructorsTest(),
-            ClassMembersTest()
+            ClassMembersTest(),
+            MixinTest()
           ],
         ),
       ),
